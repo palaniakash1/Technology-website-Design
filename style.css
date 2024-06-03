@@ -20,8 +20,8 @@ body {
     border-left: 0.1px solid #3a072d;
     border-right: .1px solid #3a072d;
 
-box-sizing: border-box;
-font-family: poppins;
+    box-sizing: border-box;
+    font-family: poppins;
 
 }
 
@@ -32,7 +32,7 @@ h1 {
     color: white;
 }
 
-h2{
+h2 {
     color: white;
     font-size: 3rem;
     font-weight: 300;
@@ -68,10 +68,14 @@ a {
     width: inherit;
     height: inherit;
     display: inline-block;
-    padding: 2px; /* Adjust padding as needed */
-    border-radius: 50px; /* Makes the border circular */
-    background: linear-gradient(45deg, #3a072d, #68435f); /* Adjust gradient colors */
+    padding: 2px;
+    /* Adjust padding as needed */
+    border-radius: 50px;
+    /* Makes the border circular */
+    background: linear-gradient(45deg, #3a072d, #68435f);
+    /* Adjust gradient colors */
 }
+
 .btn {
     width: inherit;
     height: inherit;
@@ -81,8 +85,10 @@ a {
     justify-content: center;
     padding: 10px 20px;
     background-color: #14000f;
-    border-radius: 50px; /* Makes the button circular */
-    font-size: 14px; /* Adjust font size as needed */
+    border-radius: 50px;
+    /* Makes the button circular */
+    font-size: 14px;
+    /* Adjust font size as needed */
     text-align: center;
     text-decoration: none;
 }
@@ -103,18 +109,18 @@ nav {
     display: flex;
 }
 
-.brand-links{
+.brand-links {
     display: flex;
     width: 60%;
 }
 
-.extra-nav-links{
+.extra-nav-links {
     display: flex;
     width: 40%;
 
 }
 
-.navextra{
+.navextra {
     width: 100%;
     display: flex;
     justify-content: end;
@@ -122,37 +128,43 @@ nav {
 
 }
 
-.login-btn{
+.login-btn {
     padding: 10px 20px;
-    
+
 }
 
-.start-free-trial1{
+.start-free-trial1 {
     justify-content: end;
     background-color: #ac6199;
     color: white;
     padding: 10px 50px;
-    
+
     margin-right: 10px;
     border-radius: 20px;
     transition: all 2s ease;
 
 }
-.start-free-trial1:hover{
+
+.start-free-trial1:hover {
 
     animation: shakes 2s forwards;
 }
 
 @keyframes shakes {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateX(0);
     }
+
     25% {
         transform: translateX(-5px);
     }
+
     50% {
         transform: translateX(5px);
     }
+
     75% {
         transform: translateX(-5px);
     }
@@ -200,52 +212,55 @@ main {
     padding-top: 100px;
 }
 
-.textcontainer-hero p{
+.textcontainer-hero p {
     width: 400px;
     margin-left: 100px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
 }
-.textcontainer-hero{
+
+.textcontainer-hero {
     width: 600px;
     display: flex;
-    
+
     text-align: center;
     flex-direction: column;
     justify-content: center;
 
 }
-.textcontainer{
+
+.textcontainer {
     width: 900px;
     display: flex;
-    
+
     text-align: center;
     flex-direction: column;
     justify-content: center;
 }
 
 
-.main-container{
+.main-container {
     display: flex;
     justify-content: center;
 }
 
-.textcontainer h2{
+.textcontainer h2 {
     line-height: 80px;
     padding-bottom: 20px;
     font-weight: 500;
 }
-.textcontainer p{
+
+.textcontainer p {
     width: 550px;
     margin-left: 150px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
-    
+
 }
 
-.btn2{
+.btn2 {
     padding: 15px 25px;
     margin: 0 auto;
     background-color: #3a072d;
@@ -253,19 +268,21 @@ main {
     border-radius: 50px;
     margin-bottom: 75px;
     margin-top: 20px;
-}    
+}
 
 
 
 .clients-data {
     margin-top: 100px;
 }
-.clients-data h4    {
+
+.clients-data h4 {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.logo-container{
+
+.logo-container {
 
     display: flex;
     width: 100%px;
@@ -277,10 +294,11 @@ main {
     margin-bottom: 200px;
 }
 
-.logo-container img{
+.logo-container img {
     filter: invert(50%);
 
 }
+
 .logo-container img:hover {
     filter: invert(0);
 
@@ -288,28 +306,29 @@ main {
 
 
 
-.second-half{
+.second-half {
     margin-left: -10%;
-    width: 120%;
+    max-width: 120%;
     height: 80px;
     z-index: 5;
     background-color: #14000f;
     position: sticky;
     top: 0;
+    min-width: 80%;
 }
 
 
 /* ------------------------------------    feature     ---------------------------- */
 
 
-.feature{
+.feature {
     margin-bottom: 200px;
 }
 
-.features-icon{
+.features-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(270deg , #420a42,rgb(97, 27, 97));
+    background: linear-gradient(270deg, #420a42, rgb(97, 27, 97));
     border-radius: 10px;
     margin-bottom: 20px;
     display: flex;
@@ -317,15 +336,17 @@ main {
 }
 
 
-.cards{
+.cards {
     padding: 40px 35px;
 }
-.cards:hover{
-    background: linear-gradient(270deg , #25072c,#25072c);
+
+.cards:hover {
+    background: linear-gradient(270deg, #25072c, #25072c);
     border: 1px solid #d1009d;
-    
+
 }
-.cards-container .row{
+
+.cards-container .row {
     margin: 30px 0;
 }
 
@@ -343,7 +364,7 @@ main {
 
 
 
-.services{
+.services {
     margin-bottom: 200px;
 }
 
@@ -351,17 +372,81 @@ main {
 
 .swap-button-container {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     border: 1px solid #d1009d;
     padding: 4px;
     border-radius: 50px;
     margin: 40px 0;
 }
-.swap-button-container a{
+
+.swap-button-container a {
 
     padding: 15px 15px;
     background-color: purple;
 }
 
 
+/* -----------------------------------         pricing        ----------------------- */
 
+.pricing-section {
+    margin-bottom: 150px;
+}
+
+.pricing-card,
+.pricing-card-mid {
+    padding: 30px;
+    background-color: #3a072d;
+    border-radius: 50px;
+    height: 400px;
+}
+
+
+hr {
+    background-color: #420a42;
+}
+
+.pricing-card {
+    margin: 0px 10px;
+}
+
+.pricing-card-mid {
+    margin: 10px 30px;
+    background-color: #25072c;
+
+    border-radius: 50px;
+
+}
+
+.pricing-card:hover {
+    border: 1px solid #8e37a1;
+
+}
+
+
+.pricing-card-mid:hover {
+
+    border: 1px solid #3a072d;
+}
+
+.pricing-card ul li,
+.pricing-card-mid ul li {
+    color: #F6F6F6;
+    margin-top: 10px;
+}
+
+.pricing-button {
+
+    background-color: #95949C;
+    padding: 10px 30px;
+    
+    border-radius: 50px;
+    margin-top: 100px !important;
+}
+
+.textarea {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
