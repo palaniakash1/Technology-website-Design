@@ -27,9 +27,15 @@ font-family: poppins;
 
 h1 {
     font-family: poppins;
-    font-size: 60px;
+    font-size: 56px;
     font-weight: 400;
     color: white;
+}
+
+h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
 }
 
 h4 {
@@ -82,13 +88,14 @@ a {
 }
 
 nav {
+    width: 90%;
     padding-top: 30px;
     background-color: transparent;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
+    position: fixed;
 }
 
 .flex {
@@ -189,7 +196,7 @@ ul li a:hover {
 
 
 main {
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 .textcontainer{
@@ -231,11 +238,35 @@ main {
 
 
 
-.clients-data h1    {
+.clients-data {
+    margin-top: 100px;
+}
+.clients-data h4    {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
+.logo-container{
+
+    display: flex;
+    width: 100%px;
+    height: 70px;
+    flex-direction: row;
+    margin: 20px 0;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.logo-container img{
+    filter: invert(50%);
+
+}
+.logo-container img:hover {
+    filter: invert(0);
+
+}
+
 
 
 
