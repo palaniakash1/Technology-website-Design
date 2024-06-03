@@ -12,14 +12,14 @@
 }
 
 body {
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     background-color: #14000f;
     /* background-color: #12372A; */
-    border-left: 0.1rem solid #F3CA52;
-    border-right: 0.1rem solid #F3CA52;
+    border-left: 0.1px solid #3a072d;
+    border-right: .1px solid #3a072d;
 
-
+box-sizing: border-box;
 
 }
 
@@ -62,7 +62,7 @@ a {
     display: inline-block;
     padding: 2px; /* Adjust padding as needed */
     border-radius: 50px; /* Makes the border circular */
-    background: linear-gradient(45deg, #FFBF00, #F3CA52); /* Adjust gradient colors */
+    background: linear-gradient(45deg, #3a072d, #68435f); /* Adjust gradient colors */
 }
 .btn {
     width: 396px;
@@ -72,7 +72,7 @@ a {
     align-items: center;
     justify-content: center;
     padding: 10px 20px;
-    background-color: #030014;
+    background-color: #14000f;
     border-radius: 50px; /* Makes the button circular */
     font-size: 14px; /* Adjust font size as needed */
     text-align: center;
@@ -80,7 +80,7 @@ a {
 }
 
 nav {
-    padding-top: 10px;
+    padding-top: 30px;
     background-color: transparent;
     display: flex;
     flex-wrap: wrap;
@@ -96,21 +96,53 @@ nav {
 .brand-links{
     display: flex;
     width: 60%;
-    border: 2px solid #F3CA52;
 }
 
 .extra-nav-links{
     display: flex;
     width: 40%;
-    border: 2px solid #F3CA52;
 
 }
 
 .navextra{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
 
+
+}
+
+.login-btn{
+    padding: 10px 20px;
+    
+}
+
+.start-free-trial1{
+    justify-content: end;
+    background-color: #ac6199;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    transition: all 2s ease;
+}
+.start-free-trial1:hover{
+
+    animation: shakes 2s forwards;
+}
+
+@keyframes shakes {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
 }
 
 .brand-logo {
@@ -135,7 +167,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #95949C;
+    color: #ffffff;
 }
 
 .nav-links ul li {
