@@ -31,7 +31,7 @@ body {
 
 h1 {
     font-family: poppins;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 400;
     color: white;
 }
@@ -45,8 +45,12 @@ h2 {
 h4 {
     color: #95949C;
 }
+.burger{
+    display: none;
+}
 
 p {
+    font-size: 1rem;
     font-family: poppins;
     color: #94939B;
 }

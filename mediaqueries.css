@@ -1,6 +1,7 @@
 @media (width<1240px) {
 
     .extra-nav-links{
+        display: none;
         flex-wrap: wrap;
     }
     .nav-links .flex{
@@ -8,8 +9,30 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
+    .brand-links{
+        display: flex;
+        justify-content: space-between;
+    }
+    .burger{
+        display: block;
+    }
+    .extra-nav-links{
+        margin-bottom: 500px;
+    }
+    .second-half{
+        display: none;
+    }
+    p{
+        font-size: .5rem;
+        width: 150px;
+    }
+    
 }
 @media (width<700px) {
+
+    nav {
+        width: 425px;
+        }
 
     .extra-nav-links{
         display: none;
@@ -17,5 +40,19 @@
     .nav-links .flex{
         display: flex;
         justify-content: end;
+
+    }
+
+    .gif-area img
+    {
+        display: none;
+    }
+
+    p{
+        font-size: .5rem;
+        width: 150px !important;
+    }
+    .para{
+        font-size: .5rem;
     }
 }
