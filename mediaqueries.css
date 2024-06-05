@@ -1,0 +1,21 @@
+@media (width<1240px) {
+
+    .extra-nav-links{
+        flex-wrap: wrap;
+    }
+    .nav-links .flex{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+@media (width<700px) {
+
+    .extra-nav-links{
+        display: none;
+    }
+    .nav-links .flex{
+        display: flex;
+        justify-content: end;
+    }
+}
