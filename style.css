@@ -307,14 +307,13 @@ main {
 
 
 .second-half {
-    margin-left: -10%;
-    max-width: 120%;
-    height: 80px;
+    margin-left: -5%;
     z-index: 5;
+    min-width: 110%;
     background-color: #14000f;
+    height: 80px;
     position: sticky;
     top: 0;
-    min-width: 80%;
 }
 
 
@@ -473,4 +472,132 @@ hr {
 
 .last-list {
     margin-bottom: 50px !important;
+}
+
+/* -------------------------------------        get-started-section     -------------------------- */
+
+
+.get-started-section{
+    margin: 50px 30px;
+    background-color: #68435f15;
+    border-radius: 20px;
+    box-shadow: 0 0 10px  3px #331b2d;
+
+}
+
+.get-started-section .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-area{
+    padding: 10%;
+    width: 50%;
+    text-align: left;
+}
+.text-area h2{
+    font-weight: 700;
+}
+
+.gif-area{
+    width: 50%;
+    display: flex;
+}
+.gif-area img{
+    margin: 10%;
+    margin-bottom: 100px;
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #68435f15;
+    margin-left: -6%;
+    z-index: 5;
+    min-width: 111.5%;
+    padding: 70px;
+    box-shadow: 5px 2px 20px #8d37a165;
+}
+
+.footer-links-outer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    width: 100%;
+
+}
+
+.footer-logo{
+    width: 40%;
+}
+
+.footer-links-container
+{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.newsletter-container{
+    margin: 50px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top : 1px solid white;
+    border-bottom : 1px solid white;
+
+
+}
+
+.news-form-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    padding: 40px 0;
+
+}
+
+.news-form-container input{
+    border-radius: 50px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    z-index: 1;
+}
+.news-form-container a{
+    width: 150px;
+    background-color: #8e37a1 !important;
+     position: absolute;
+    left: 150px;
+
+    border: none;
+    color: white;
+    padding: 2px;
+    padding-left: 25px;
+
+}
+
+.copyright-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyleft-side{
+    width: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.copyright-area{
+    margin-right: 20px;
 }
