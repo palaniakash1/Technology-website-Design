@@ -217,7 +217,7 @@ ul li a:hover {
 
 
 main {
-    padding-top: 100px;
+    padding-top: 170px;
 }
 
 .textcontainer-hero p {
@@ -329,6 +329,29 @@ main {
     top: 0;
 }
 
+.video{
+    width: 100%;
+    height: 100vh;
+    background: url(assets/Screenshot\ \(393\).png);
+}
+
+.video-btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20%;
+    background-color: #7A7983;
+}
+
+.vid-play-btn img{
+    width: 80px;
+
+    height: 80px;
+    margin-left: 15px;
+    margin-top: 8px;
+    
+}
+
 
 /* ------------------------------------    feature     ---------------------------- */
 
@@ -435,8 +458,6 @@ hr {
     background-color: #420a42;
 }
 
-.pricing-card {
-}
 
 .pricing-card-mid {
     margin: 10px 30px;
