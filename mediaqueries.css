@@ -17,7 +17,7 @@
         display: block;
     }
     .extra-nav-links{
-        margin-bottom: 500px;
+        margin-bottom: 45rem;
     }
     .second-half{
         display: none;
@@ -32,6 +32,7 @@
 
     nav {
         width: 425px;
+        position: relative;
         }
 
     .extra-nav-links{
@@ -55,4 +56,14 @@
     .para{
         font-size: .5rem;
     }
+    .logo-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        min-height: 100vh;
+        height: 3rem;
+    }
+    .logo-container img{
+        width: 100%;
+    }  
 }
