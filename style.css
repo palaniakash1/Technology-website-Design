@@ -570,6 +570,9 @@ hr {
     border: .1rem solid white;
 }
 
+
+
+
 .textarea {
     justify-content: center;
     align-items: center;
@@ -699,12 +702,13 @@ footer {
     border-bottom: .1rem solid #68435f !important;
 }
 
-.news-text-area h4{
+.news-text-area h4 {
     font-size: 2rem;
     color: white;
 
 }
- .news-form-container {
+
+.news-form-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -771,7 +775,6 @@ footer {
     margin-right: 1.2rem;
 }
 
-
 @media (max-width:992px) {
 
     header a {
@@ -781,6 +784,7 @@ footer {
 
 }
 
+/* ++++++++++++++++++++++++++++++++            TAB view        +++++++++++++++++++++ */
 
 @media (max-width:768px) {
 
@@ -955,4 +959,189 @@ footer {
     .copyleft-side {
         width: 70%;
     }
+}
+
+
+/* +++++++++++++++++++++++++++++++++           MOBILE VIEW             ++++++++++++++++++++++++++ */
+
+
+
+@media (max-width:425px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .textcontainer-hero h1 {
+        width: 80%;
+        font-size: 2.5rem;
+        line-height: 2.1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .textcontainer h2 {
+        width: 90%;
+        font-size: 1.5rem;
+        line-height: 2rem;
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .textcontainer p{
+        width: 80%;
+
+    }
+
+    .textcontainer-hero p {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .button-gradient-border {
+        width: 100%;
+    }
+
+    .btn-container {
+        width: 100%;
+
+    }
+
+    .btn {
+        font-size: .9rem;
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        overflow: hidden;
+        margin-top: -2rem;
+    }
+
+    .button-gradient-border {
+        width: auto;
+    }
+
+
+
+    .get-started-section h2 {
+        font-size: 1rem !important;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-container img {
+        width: 60%;
+    }
+
+    .cards-container .row {
+        margin: 1.8rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+
+
+    }
+
+    .cards-container .row .cards {
+        width: 80%;
+    }
+
+    .testimonial-cards, .cards{
+        width: 80%;
+    }
+}
+
+@media (max-width:320px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .button-gradient-border {
+        width: auto;
+    }
+
+    h1 {
+        width: 80%;
+        font-size: 1.8rem;
+        margin-top: .2rem;
+    }
+
+    .textcontainer-hero p {
+        font-size: .8rem;
+        width: 80%;
+    }
+
+    .button-gradient-border {
+        width: 100%;
+    }
+
+    .btn-container {
+        width: 100%;
+
+    }
+
+    .btn {
+        font-size: .6rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    .btn img {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-container img {
+        width: 60%;
+    }
+
+    .cards-container .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
