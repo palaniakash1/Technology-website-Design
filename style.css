@@ -992,7 +992,7 @@ footer {
         margin-bottom: 1rem;
     }
 
-    .textcontainer p{
+    .textcontainer p {
         width: 80%;
 
     }
@@ -1070,9 +1070,102 @@ footer {
         width: 80%;
     }
 
-    .testimonial-cards, .cards{
-        width: 80%;
+    .testimonial-cards,
+    .cards {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        background: linear-gradient(270deg, #25072c, #25072c);
+        border: .1rem solid #d1009d;
+        margin: 1rem 0;
+        border-radius: 10px;
     }
+
+    #price .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .pricing-card,
+    .pricing-card-mid {
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    .pricing-card-mid {
+        margin-top: 2rem !important;
+    }
+
+    .get-started-section .row {
+        padding: 1rem 0 !important;
+        text-align: center;
+
+    }
+
+    .footer-links-outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-logo {
+        width: 15rem;
+
+    }
+
+    .footer-links-outer img {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .footer-links-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .newsletter-container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .news-text-area h4{
+        font-size: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media (max-width:320px) {
