@@ -7,36 +7,43 @@
     <link rel="icon" href="assets/letter-P-gif-unscreen.gif" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header >
-      <nav>
-        <div class="brand-links">
-          <div class="brand-logo">
-            <img src="assets/avvai logo.png" width="120px" alt="" />
-          </div>
+    <!-- ++++++++++++++++++++++++    header        ++++++++++++++++++++ -->
 
-          <div class="burger">
-            <img src="assets/burger_menu.png" width="50px" alt="">
-          </div>
-          <div class="nav-links flex">
-            <ul class="flex">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#feature">Company</a></li>
-              <li><a href="#services">Product</a></li>
-              <li><a href="#price">Pricing</a></li>
-            </ul>
-          </div>
+    <header class="header">
+      <a href="#home" class="logo">
+        <img src="assets/avvai logo.png" alt="" />
+      </a>
+
+      <input type="checkbox" id="check" />
+      <label class="icons" for="check">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <i class="fa-solid fa-xmark" id="close-icon"></i>
+      </label>
+
+      <nav class="navbar">
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#price">Company</a>
+          <a href="#resource">Product</a>
+          <a href="#features">Pricing</a>
         </div>
-
-        <div class="extra-nav-links">
-          <ul class="navextra">
-            <li><a href="" class="login-btn">Login</a></li>
-            <li><a href="" class="start-free-trial1">Start Free Trial</a></li>
-          </ul>
+        <div class="login-link">
+          <a href="#Login" class="login-btn">login</a>
+          <a href="#trial" class="trial-btn">start free Trial</a>
         </div>
       </nav>
     </header>
+
+    <!-- ++++++++++++++++++++++++    header ends        ++++++++++++++++++++ -->
 
     <main id="home">
       <div class="btn-container item-center">
@@ -64,16 +71,15 @@
       </div>
 
       <div
-        class="video"
-        style="display: flex; justify-content: center; margin-top: 20px"
-      >
-      <a class="video-btn" href="https://www.youtube.com/embed/bCOj-S6fpMY?si=aUFj4Ti7mPedXNVE">
-
-        <div href="" class="vid-play-btn">
-          <img src="assets/download-removebg-preview.png" alt="">
-        </div>
-      </a>
-       
+        class="video"      >
+        <a
+          class="video-btn"
+          href="https://www.youtube.com/embed/bCOj-S6fpMY?si=aUFj4Ti7mPedXNVE"
+        >
+          <div href="" class="vid-play-btn">
+            <img src="assets/download-removebg-preview.png" alt="" />
+          </div>
+        </a>
       </div>
 
       <div class="clients-data">
@@ -99,7 +105,7 @@
         <div class="main-container">
           <div class="textcontainer">
             <h2>Unlock the Potential of AI Software</h2>
-            <p  class="para">
+            <p class="para">
               Explore the powerful features of our AI software solutions that
               drive innovation and empower your business.
             </p>
@@ -113,7 +119,7 @@
               <a href="">
                 <div class="features-icon"></div>
                 <h4>Intelligent Data Analysis</h4>
-                <p >
+                <p>
                   Leverage advanced algorithms to analyze and extract valuable
                   insights from your data with no effort at all.
                 </p>
@@ -256,7 +262,9 @@
         <div class="main-container">
           <div class="textcontainer">
             <h2>Flexible Pricing Options</h2>
-            <p class="para">Select the plan that suits your business needs and budget.</p>
+            <p class="para">
+              Select the plan that suits your business needs and budget.
+            </p>
           </div>
         </div>
 
@@ -335,7 +343,7 @@
         <div class="main-container">
           <div class="textcontainer">
             <h2>What Our Clients Say</h2>
-            <p  class="para">
+            <p class="para">
               Hear from our satisfied clients about their experience with our AI
               software.
             </p>
@@ -415,7 +423,7 @@
         <div class="row">
           <div class="text-area">
             <h2>Get Started Today</h2>
-            <p >
+            <p>
               Ready to unlock the potential of AI for your business? Select your
               preferred pricing plan and get started today.
             </p>
@@ -425,8 +433,6 @@
           <div class="gif-area">
             <img src="assets/letter-P-gif-unscreen.gif" alt="" />
           </div>
-
-          
         </div>
       </div>
     </main>
@@ -434,7 +440,7 @@
     <footer>
       <div class="footer-links-outer">
         <div class="footer-logo">
-          <img src="assets/letter-P-gif-unscreen.gif" width="120px" alt="" />
+          <img src="assets/avvai logo.png" width="220px" alt="" />
         </div>
 
         <div class="footer-links-container">
@@ -481,7 +487,6 @@
         </div>
       </div>
 
-      
       <div class="copyright-area">
         <div class="copyleft-side">
           <a href="">Terms of Service</a>

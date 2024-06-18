@@ -1,69 +1,15 @@
-@media (width<1240px) {
+@media (max-width:420px) {
 
-    .extra-nav-links{
-        display: none;
-        flex-wrap: wrap;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    .nav-links .flex{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    .brand-links{
-        display: flex;
-        justify-content: space-between;
-    }
-    .burger{
-        display: block;
-    }
-    .extra-nav-links{
-        margin-bottom: 45rem;
-    }
-    .second-half{
-        display: none;
-    }
-    p{
-        font-size: .5rem;
-        width: 150px;
+    header{
+        
     }
     
 }
-@media (width<700px) {
-
-    nav {
-        width: 425px;
-        position: relative;
-        }
-
-    .extra-nav-links{
-        display: none;
-    }
-    .nav-links .flex{
-        display: flex;
-        justify-content: end;
-
-    }
-
-    .gif-area img
-    {
-        display: none;
-    }
-
-    p{
-        font-size: .5rem;
-        width: 150px !important;
-    }
-    .para{
-        font-size: .5rem;
-    }
-    .logo-container{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        min-height: 100vh;
-        height: 3rem;
-    }
-    .logo-container img{
-        width: 100%;
-    }  
+@media (max-width:1420px) {
+    
 }
